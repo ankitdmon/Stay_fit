@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <h2
+    class="mb-4 font-weight-bold homeTitle"
+  >
+    Welcome Back, testuser !
+    <p
+      class="quote"
+    >
+      To ensure good health: eat lightly, breathe deeply, live moderately, cultivate cheerfulness, and maintain an interest in life
+    </p>
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when logged out 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+    style="width: 22rem;"
+  >
+    <div
+      class="card-body"
+    >
+      <p
+        class="font-weight-bold card-text"
+        style="font-size: 2rem;"
+      >
+        Fitness starts with what you eat.
+      </p>
+      <p
+        class="card-text"
+        style="font-size: 0.8rem;"
+      >
+        Want to eat more mindfully? Track meals, learn about your habits, and reach your goals with MyFitness.
+      </p>
+      <a
+        class="btn btn-secondary btn-sm"
+        href="/login"
+        role="button"
+        tabindex="0"
+      >
+        Login
+      </a>
+       
+      <a
+        class="btn btn-secondary btn-sm"
+        href="/signup"
+        role="button"
+        tabindex="0"
+      >
+        Signup
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

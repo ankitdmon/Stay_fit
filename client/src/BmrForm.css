@@ -1,0 +1,20 @@
+.form {
+  text-align: initial;
+  padding: 20px;
+  width: 100%;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+}
+
+.Btn {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.Title {
+  margin-top: 1rem;
+  color: rgb(228, 121, 94);
+}

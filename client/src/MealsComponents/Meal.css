@@ -1,0 +1,26 @@
+.MealsRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -100px;
+}
+
+.cardBody {
+  background-color: white;
+}
+
+.Macros {
+  text-align: center;
+  font-family: cursive;
+  font-size: xxx-large;
+  color: rgb(252, 135, 89);
+}
+
+.suggestMeal {
+  text-align: center;
+  font-family: cursive;
+  color: rgb(84 89 255);
+  margin-top: 1.5rem;
+}
+.btn {
+  margin-top: 1rem;
+}

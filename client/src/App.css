@@ -1,0 +1,36 @@
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15vh;
+  height: calc(100vh - 56px); /* router view - navbar height */
+  overflow: scroll;
+}
+
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  color: rgb(39, 31, 5);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  text-align: center;
+  align-items: center;
+}
+
+.card-body {
+  background-color: rgb(237 242 246);
+}
+
+.homeTitle {
+  text-align: center;
+  margin-top: 13rem;
+}
+
+.quote {
+  font-style: italic;
+  font-size: large;
+  color: darkorchid;
+}

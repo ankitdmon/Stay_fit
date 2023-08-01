@@ -1,0 +1,12 @@
+.Table {
+  margin-top: 5rem;
+}
+
+.MealsRow1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -11rem;
+}
+.col {
+  margin-top: 1rem;
+}

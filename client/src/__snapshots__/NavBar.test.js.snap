@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar navbar-expand-lg navbar-dark bg-dark"
+  >
+    <a
+      class="navbar-brand"
+      href="/"
+    >
+      MyFitness
+    </a>
+    <div
+      class="row"
+    >
+      <button
+        aria-controls="basic-navbar-nav"
+        aria-label="Toggle navigation"
+        class="navbar-toggler collapsed"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="navbar-collapse collapse"
+        id="basic-navbar-nav"
+      >
+        <div
+          class="me-auto navbar-nav"
+        >
+          <a
+            class=""
+            href="/meals"
+          >
+            Meals
+          </a>
+          <a
+            class=""
+            href="/bmr"
+          >
+            BMR
+          </a>
+          <a
+            class=""
+            href="/foodJournal"
+          >
+            Food Journal
+          </a>
+          <a
+            aria-current="page"
+            class="active"
+            href="/"
+          >
+            Logout testfirst
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when logged out 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar navbar-expand-lg navbar-dark bg-dark"
+  >
+    <a
+      class="navbar-brand"
+      href="/"
+    >
+      MyFitness
+    </a>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark"
+    >
+      <a
+        class=""
+        href="/bmr"
+      >
+        BMR
+      </a>
+      <a
+        class="nav-link"
+        href="/login"
+      >
+        Login
+      </a>
+      <a
+        class="nav-link"
+        href="/signup"
+      >
+        SignUp
+      </a>
+    </nav>
+  </nav>
+</DocumentFragment>
+`;

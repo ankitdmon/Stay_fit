@@ -1,0 +1,21 @@
+.scroll-container {
+  height: 100%;
+  background: #282828;
+  border: 5px solid #e2d7c7;
+}
+
+.hieroglyphs {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 900px;
+  justify-content: space-between;
+}
+.buttons {
+  margin-top: 1rem;
+}
+
+.MealSuggestionCard {
+  text-align: initial;
+}
